@@ -11,7 +11,6 @@ Inicialmente, o foco estava na criação da estrutura visual e responsiva com HT
 - Carrinho de compras com opção de adicionar/remover itens
 - Seção "Sobre Nós" e "Contatos"
 - Organização dos produtos em categorias
-- Estrutura pronta para integração com back-end em PHP
 
 ## Tecnologias Utilizadas
 
