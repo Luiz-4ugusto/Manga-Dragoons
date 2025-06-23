@@ -1,4 +1,4 @@
-# 🛒 Projeto Web Commerce
+#  Projeto Web Commerce
 Este sistema foi desenvolvido como parte da disciplina de Programação WEB (PW) do Instituto Federal de Santa Catarina. 
 Este projeto é um e-commerce web desenvolvido como parte do meu aprendizado em desenvolvimento front-end e tecnologias web. A aplicação simula um ambiente de loja virtual, permitindo navegação por produtos, cadastro de usuários e gerenciamento de itens no carrinho de compras.
 
