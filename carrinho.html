@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MANGA DRAGOONS</title>
+    <link rel="stylesheet" href="css/carrinho.css">
+    <link rel="icon" href="img/MangaDragoons.jpeg">
+
+
+</head>
+
+<body class="center">
+    <div class="retangulo">
+        <div class="imgFundo">
+            <img src="img/MANGADRAGOONS1.png" height="300" width="700" alt="Manga Dragoons">
+        </div>
+        <hr>
+        <header>
+            <div class="meio">
+                <div class="one">
+                    <img src="img/MangaDragoons.jpeg" height="300" width="450" alt="Manga Dragoons Logo">
+                </div>
+            </div>
+        </header>
+        <nav>
+            <ul>
+              <li><a href="login.html">LOGIN</a></li>
+              <li><a href="CONTATOS.HTML">CONTATOS</a></li>
+              <li><a href="SOBRE_NÓS.html">SOBRE NÓS</a></li>
+              <li><a href="PRODUTOS.HTML">PRODUTOS</a></li>
+              <li><a href="carrinho.html">CARRINHO</a></li>
+            </ul>
+          </nav>
+        <h1>CARRINHO</h1>
+        <div class="quadrado">
+            <div class="produto">
+                <ul>
+                    <li class="quadradinho">
+                        <img src="img/1.png" height="250" width="180" alt="Bleach">
+                    </li>
+                    <li>
+                        <h1>Bleach</h1>
+                        <p>Preço Unitário:<br>
+                            <strong data-preco="22.90">R$22,90</strong>
+                        </p>
+                    </li>
+                    <li class="caixa_num">
+                        <button class="num" id="btn-minus1">-</button>
+                        <input type="text" class="input-num" id="number1" value="1" readonly>
+                        <button class="num" id="btn-plus1">+</button>
+                    </li>
+                    <li>
+                        <p id="valor-parcial1">Valor Parcial: R$22,90</p>
+                    </li>
+                    <li>
+                        <img class="imgLado" src="img/lixeira.png" height="25" width="25" alt="lixeira">
+                    </li>
+                </ul>
+                <div class="linha2">
+                    <hr>
+                </div>
+            </div>
+        </div>
+
+        <div class="quadrado">
+            <div class="produto">
+                <ul>
+                    <li class="quadradinho">
+                        <img src="img/10.png" height="250" width="180" alt="Demon Slayer">
+                    </li>
+
+
+   
+
+                    <li>
+                        <h1>Demon Slayer</h1>
+                        <p>Preço Unitário:<br>
+                            <strong data-preco="34.99">R$34,90</strong>
+                        </p>
+                    </li>
+                    <li class="caixa_num">
+                            <button class="num" id="btn-minus2">-</button>
+                            <input type="text" class="input-num" id="number2" value="1" readonly>
+                            <button class="num" id="btn-plus2">+</button>
+                        </li>
+                        <li>
+                            <p id="valor-parcial2">Valor Parcial: R$34,90</p>
+                        </li>
+                    </li>
+                    <li>
+                        <img class="imgLado" src="img/lixeira.png" height="25" width="25" alt="lixeira">
+                    </li>
+                </ul>
+                <div class="linha2">
+                    <hr>
+                </div>
+            </div>
+        </div>
+
+        <div class="quadrado">
+            <div class="produto">
+                <ul>
+                    <li class="quadradinho">
+                        <img src="img/6.png" height="250" width="180" alt="One punch man">
+                    </li>
+                    <li>
+                        <h1>One Punch man</h1>
+                        <p>Preço Unitário:<br>
+                            <strong data-preco="23.99">R$23,99</strong>
+                        </p>
+                    </li>
+                    <li class="caixa_num">
+                        <button class="num" id="btn-minus3">-</button>
+                        <input type="text" class="input-num" id="number3" value="1" readonly>
+                        <button class="num" id="btn-plus3">+</button>
+                    </li>
+                    <li>
+                        <p id="valor-parcial3">Valor Parcial: R$34,90</p>
+                    </li>
+                    <li>
+                        <img class="imgLado" src="img/lixeira.png" height="25" width="25" alt="lixeira">
+                    </li>
+                </ul>
+                <div class="linha2">
+                    <hr>
+                </div>
+            </div>
+        </div>
+
+        <div class="quadrado_lateral">
+            <h1>Resumo do Pedido</h1><br>
+            <p>Caso seu pedido tenha produtos que estão em pré-venda, o prazo de entrega começa a contar a partir do recebimento do produto em estoque.</p><br>
+
+            <input type="text" placeholder="Inserir um cupom"><br>
+            <input type="text" placeholder="Inserir seu CEP"><br>
+            <a href="https://buscacepinter.correios.com.br/app/endereco/index.php">Não sei meu CEP</a>
+
+            <p>Total a pagar:</p>
+            <div class="valor">
+                <h2>R$00,00</h2>
+            </div>  
+
+            <p>
+                <img class="img_cartao" src="img/cartão.svg" height="30" width="30" alt="Imagem de um cartão"> Formas de pagamento:
+            </p>
+            <hr class="linha3">
+
+            <form>
+                <label>
+                    <input type="radio" name="pagamento" value="visa">
+                    <span class="cartao">
+                        <img src="img/visacredito.png" height="28" width="50" alt="visa credito">
+                        <img src="img/mastercard.png" height="35" width="55" alt="master card">
+                    </span>
+                </label>
+
+                <label>
+                    <input type="radio" name="pagamento" value="visa">
+                    <span class="cartao">
+                        <img src="img/visa.png" height="35" width="50" alt="visa debito">
+                        <img src="img/mastercard_de.png" height="35" width="55" alt="master card debito">
+                    </span>
+                </label>
+
+                <label>
+                    <input type="radio" name="pagamento" value="boleto">
+                    <span class="cartao">
+                        <img src="img/boleto.png" height="35" width="100" alt="boleto">
+                    </span>
+                </label>
+
+                <label>
+                    <input type="radio" name="pagamento" value="pix">
+                    <span class="cartao">
+                        <img src="img/pix.png" height="35" width="80" alt="pix">
+                    </span>
+                </label>
+            </form>
+            <a href="#" class="myButton">FINALIZAR COMPRA</a>
+        </div>
+    </div>
+    <script src="js/carrinho.js"></script>
+</body>
+
+</html>

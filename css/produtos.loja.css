@@ -1,0 +1,716 @@
+.retangulo {
+  height: auto;
+  width: 92%;
+  background-color: rgb(255, 255, 255);
+  padding: 5%;
+  border-radius: 20px;
+  
+}
+  .b {
+    text-align: left;
+  }
+  .lateral {
+    float: right;
+    margin-left: 20px; 
+    margin-top: -20px;
+  }
+  
+  .center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  header .one img {
+    margin-top: -7%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 7px solid #bca573;
+  }
+  
+  .imgFundo {
+    margin: -80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    padding-bottom: 150px;
+  }
+  
+  .meio {
+    text-align: center;
+  }
+  
+  .centralizar {
+    padding: 0px 200px;
+  }
+  
+  hr {
+    border: 10px; /* Remove a borda padrão */
+    height: 7px; /* Define a altura da linha */
+    background-color: #bca573; /* Define a cor da linha */
+    
+  }
+  
+  a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  
+
+  
+  ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    padding: 20px;
+    font-size: 15px;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: center;
+  }
+  
+  footer a {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin-top: 2px;
+  }
+  
+  p {
+    padding: 25px;
+  }
+  
+  /*parte dos card (produtos) */
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .column {
+    float: left;
+    width: 20%;
+    padding: 0 14px;
+  }
+  
+  
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    padding: 10PX;
+    text-align: center;
+    margin: 15px;
+    height: 475PX; 
+    width: 800px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background:  #ffffff;
+    box-shadow: 0px 0px 30px 10px #bca57325;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+}
+
+.card h2, h3, h4 {
+    font-size: 18px;
+}
+  .card h1{
+    font-size: 18px;
+    text-align: center;
+    align-items: center;
+  }
+  .card p{
+    font-size: 16px;
+  
+  }
+  /*
+  .card img {
+    border: 10px solid #60606018; 
+    max-width: 100%;
+    max-height: 100%;
+  }
+  */
+  .card button{
+    margin-top: -10px;
+  }
+  
+  .imgLado{
+    cursor: pointer;
+  }
+  .centralizado {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente, se necessário */
+
+  }
+  
+ 
+  .box {
+    height: 80px;
+    display: flex;
+    cursor: default;
+    padding: 10px 20px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .search-container {
+    position: relative;
+  }
+  
+  .search-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .search-input {
+    padding-left: 30px; 
+    width: 400px;
+    height: 35px;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    background: rgb(237, 231, 231);
+    border-radius: 30px;
+  }
+  
+  .search-button {
+    margin-left: 10px; 
+  
+  }
+  .search-icon {
+    position: absolute;
+    left:365px; 
+    top: 50%; 
+    transform: translateY(-50%);
+  }
+  
+  .espaco {
+    margin: 100px; 
+  }
+  .column1 {
+    float: left;
+    width: auto;
+    padding: 0 14px;
+  }
+  
+  
+  
+  .card1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    padding: 10PX;
+    text-align: center;
+    width: auto;
+    height: auto; 
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #bca57b4a;
+    
+  }
+  .card h3{
+    font-size: 18px;
+    text-align: justify;
+    margin-left: 80px;
+  }  
+  .card1 {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; }
+
+.card1 h2, .card1 h3, .card1 h4 {
+    font-size: 18px;
+}
+  .card1 p{
+    font-size: 16px;
+  }
+  .caixa_num {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 150px;
+    border-radius: 80px;
+    background-color: rgba(255, 255, 255, 0.252);
+    border: 1px solid #cecbcb69;
+    margin-bottom: 8px;
+  }
+  
+  .num {
+    margin-bottom: -10px;
+    width: 35px;
+    height: 35px;
+    background-color: rgba(223, 223, 223, 0.301);
+    border: 0.2px solid #cecbcb69;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+
+  .input-num {
+    width: 40px;
+    height: 40px;
+    align-content: center;
+    text-align: center;
+    border: 0px solid ;
+    border-radius: 30px;
+    padding: 7px;
+    margin-top: -1px;
+    background-color: transparent ;
+  }
+  
+  .linha hr{
+    height: 2px; 
+    background-color: #cecbcb69; 
+    width: 150px;
+    float: left;
+    margin-top: -5px;
+  }
+  
+.caixa {
+  height: 40px;
+  width: 40px;
+  background-color: rgba(223, 223, 223, 0.301);
+  align-items: center;
+  align-content: center;
+  border-radius: 15px;
+  margin-bottom: 8px;
+}
+
+
+
+.caixa1 {
+  display: flex;
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  height: 45px;
+  width: 230px;
+  border-radius: 8px;
+  background-color: #bca5731f;
+  margin-left: 260px;
+}
+
+.imagem {
+  display: flex; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  margin-top: 10px;
+  margin-left: 8px;
+}
+
+.caixa1 p{
+  margin-top: -10px;
+  font-size: 12PX;
+}
+
+
+
+
+.column2 {
+  float: left;
+  width: auto;
+  padding: 0 14px;
+}
+
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+  padding: 10PX;
+  text-align: center;
+  width: 559px;
+  height: 500px; 
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+}
+
+.column2 p{
+  text-align: left; 
+  justify-content: right;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.column3 {
+  float: left;
+  width: auto;
+}
+
+.card3 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  text-align: center;
+  width: 559px;
+  height: 500px;
+  display: flex;
+  margin-left: 50px;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+.card3 h2 {
+  margin: 0;
+  
+}
+
+.card3 p {
+  text-align: left;
+}
+
+.star-rating {
+  direction: rtl;
+  display: flex;
+  justify-content: center;
+}
+
+.star-rating input[type="radio"] {
+  display: none;
+}
+
+.star-rating label {
+  font-size: 2em;
+  color: #ccc;
+  cursor: pointer;
+  transition: color 0.3s;
+  padding: 0 1px; 
+}
+
+.star-rating input[type="radio"]:checked ~ label {
+  color: #f5b301;
+}
+
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+  color: #f5b301;
+}
+
+.star-rating input[type="radio"]:checked ~ label:hover,
+.star-rating input[type="radio"]:checked ~ label:hover ~ label,
+.star-rating input[type="radio"]:checked ~ label:hover ~ label ~ label,
+.star-rating input[type="radio"]:checked ~ label:hover ~ label ~ label ~ label {
+  color: #f5b301;
+}
+body{
+  background-image: url(biblioteca1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.alinhamento {
+  margin-left: 250px;
+  margin-right: 280px;
+  
+}
+.alinhamento img{
+  margin-left: 6px;
+}
+
+.center1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items:baseline;
+  background-color: rgb(255, 255, 255);
+}
+
+nav ul .submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #606060;
+  padding: 0.5rem 0;
+  border-radius: 5px;
+}
+nav ul li {
+  position: relative;
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  display: block;
+}
+
+
+nav ul .submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  padding: 0.5rem 0;
+  border-radius: 5px;
+}
+
+nav ul .submenu li {
+  margin: 0;
+}
+
+nav ul .submenu li a {
+  padding: 0.5rem 1rem;
+  white-space: nowrap;
+}
+
+
+nav ul li:hover .submenu {
+  display: block;
+}
+
+nav a {
+  transition: transform .1s ease;
+}
+
+nav a:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.review-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+  justify-content: center;
+}
+
+#review {
+  flex: 1;
+  padding: 15px;
+  border-radius: 5px;
+  margin-right: 10px;
+  resize: none;
+}
+
+#enviar-review {
+  width: 50px;
+  height: 50px;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+#enviar-review:hover {
+  background-color: #45a049;
+}
+
+#enviar-review:active {
+  transform: scale(0.95);
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #bca5731f;
+  border-radius: 5px; 
+  margin-top: 20px; 
+  max-width: 250px; 
+  margin-left: 250px;
+}
+
+.navbar ul {
+  list-style-type: none; 
+  padding: 0;
+}
+
+.navbar .menu-item {
+  position: relative;
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+.navbar .submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.navbar .submenu li {
+  margin: 10px 0;
+}
+
+.navbar .submenu li a {
+  display: block;
+  padding: 5px 10px;
+  white-space: nowrap;
+}
+
+.navbar .menu-item:hover .submenu {
+  display: block;
+}
+
+.navbar a:hover {
+  transform: scale(1.1);
+}
+
+/* Estilo padrão para telas grandes já existente */
+
+/* Responsivo para telas de notebook (até 1366px de largura) */
+@media screen and (max-width: 1366px) {
+  /* Ajusta o layout do container principal */
+  .retangulo {
+    width: 95%;
+    padding: 4%;
+  }
+
+  /* Ajusta a largura das colunas */
+  .column, .column1, .column2, .column3 {
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  /* Redimensiona as imagens e textos */
+  .card img, .card1 img {
+    width: 100%;
+    height: auto;
+  }
+
+  .card, .card1, .card2, .card3 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  /* Reduz o tamanho do input e dos botões */
+  .search-input {
+    width: 80%;
+  }
+
+  .caixa_num {
+    width: 120px;
+  }
+
+  .num {
+    width: 30px;
+    height: 30px;
+  }
+
+  /* Ajusta o menu */
+  nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav ul li {
+    margin-bottom: 10px;
+  }
+
+  /* Centraliza os itens do footer */
+  footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer a {
+    margin: 10px;
+  }
+
+  footer p {
+    font-size: 14px;
+  }
+
+  /* Avaliações e avaliações de produto */
+  .review-container {
+    flex-direction: column;
+  }
+
+  #review {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  #enviar-review {
+    width: 40px;
+    height: 40px;
+  }
+
+  /* Ajusta a exibição do sistema de estrelas */
+  .star-rating {
+    font-size: 1.5em;
+  }
+
+  /* Navbar */
+  .navbar {
+    max-width: 100%;
+    margin-left: 0;
+  }
+}
+
+/* Responsivo para telas menores que 1024px (opcional) */
+@media screen and (max-width: 1024px) {
+  /* Ajustes adicionais para telas ainda menores */
+  .search-input {
+    width: 100%;
+  }
+
+  .imgFundo img {
+    width: 100%;
+    height: auto;
+  }
+
+  nav ul li {
+    margin-bottom: 5px;
+  }
+
+  nav a {
+    padding: 0.5rem 0.8rem;
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1025px) {
+ .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    padding: 10PX;
+    text-align: center;
+    margin: 15px;
+    height: 475PX; 
+    width: 1200px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background:  #ffffff;
+    box-shadow: 0px 0px 30px 10px #bca57325;
+  }
+
+  .card2{
+    width: 700px;
+  }
+  .card3{
+    width: 765px;
+  }
+  }

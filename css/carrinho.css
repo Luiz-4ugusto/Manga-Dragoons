@@ -1,0 +1,589 @@
+img *{
+    pointer-events: none;   
+  }
+  .espaco {
+    margin: 100px; 
+  }
+  
+  
+  body{
+    background-image: url(biblioteca1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .retangulo {
+    height: auto;
+    width: 92%;
+    background-color: rgb(255, 255, 255);
+    padding: 5%;
+    border-radius: 20px;
+    
+  }
+    .b {
+      text-align: left;
+    }
+    .lateral {
+      float: right;
+      margin-left: 20px; 
+      margin-top: -20px;
+    }
+  
+    .center {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: auto;
+    }
+  
+    header .one img {
+      margin-top: -7%;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 7px solid #bca573;
+      pointer-events: none;   
+  
+    }
+  
+    .imgFundo {
+      margin: -80px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 50px;
+      padding-bottom: 150px;
+      pointer-events: none;   
+      
+    }
+  
+
+  
+    .meio {
+      text-align: center;
+    }
+  
+    .centralizar {
+      padding: 0px 200px;
+    }
+  
+    hr {
+      border: 0; 
+      height: 7px; 
+      background-color: #bca573; 
+    }
+  
+    a {
+      
+      text-decoration: none;
+    }
+  
+  
+  
+    ul {
+      display: flex;
+      justify-content: space-between;
+      list-style: none;
+      align-items: center;
+      padding: 20px;
+      font-size: 15px;
+    }
+  
+    footer {
+      display: flex;
+      justify-content: center;
+    }
+  
+    footer a {
+      margin: 20px;
+      text-align: center;
+    }
+  
+    footer p {
+      margin-top: 2px;
+    }
+  
+    p {
+      padding: 25px;
+    }
+  
+    /*parte dos card (produtos) */
+  
+    * {
+      font-family: Arial, Helvetica, sans-serif;
+      box-sizing: border-box;
+    }
+  
+    .column {
+      float: left;
+      width: 20%;
+      padding: 0 14px;
+    }
+  
+
+  
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+      padding: 10px; /* Changed 'PX' to 'px' */
+      text-align: center;
+      margin: 15px;
+      height: 355px; /* Changed 'PX' to 'px' */
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background-color: #bd9c738b;
+      background-image: linear-gradient(135deg, #f0eaf0 55%, transparent 80% 45%);
+      transition: transform .5s ease;
+    }
+    
+    .card:hover {
+      -webkit-transform: scale(1.1);
+      transform: scale(1.07);
+    }
+  
+    .card h2, .card h3, .card h4 {
+      font-size: 18px;
+      text-align: left;
+    }
+    .card p{
+      font-size: 17px;
+      margin-top:-10px ;
+    }
+    /*
+    .card img {
+      border: 10px solid #60606018; 
+      max-width: 100%;
+      max-height: 100%;
+    }
+    */
+    .card button{
+      margin-top: -10px;
+    }
+  
+    .imgLado{
+      cursor: pointer;
+      pointer-events: none;   
+    }
+    .box {
+      height: 80px;
+      display: flex;
+      cursor: default;
+      padding: 10px 20px;
+      background-color: rgba(255, 255, 255, 0);
+      align-items: center;
+      justify-content: center;
+      margin-right: 100px;
+    }
+  
+    .search-container {
+      position: relative;
+    }
+  
+    .search-icon {
+      position: absolute;
+      left: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  
+    .search-input {
+      padding-left: 30px;
+      width: 400px;
+      height: 35px;
+      outline: none;
+      border: none;
+      font-weight: 500;
+      background: rgb(237, 231, 231);
+      border-radius: 30px;
+    }
+  
+    .search-button {
+      margin-left: 10px; 
+  
+    }
+    .search-icon {
+      position: absolute;
+      left:365px; 
+      top: 50%; 
+      transform: translateY(-50%);
+    }
+  
+    .espaco {
+      margin: 100px; 
+    }
+
+  
+    .contados p{
+    margin-left: 450px;
+    }
+    .caixa_num {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 45px;
+      width: 150px;
+      border-radius: 10px;
+      background-color: rgba(255, 255, 255, 0.418);
+      border: 1px solid #cecbcb8c;
+      
+
+    }
+    .num {
+      margin-bottom: -100px;
+      width: 35px;
+      height: 35px;
+      background-color: rgba(223, 223, 223, 0.301);
+      border: 0.2px solid #cecbcb69;
+      border-radius: 20px;
+      cursor: pointer;
+      margin-bottom: 2px;
+    }
+      
+    .imgLado{
+      cursor: pointer;
+    }
+  
+    .input-num {
+      width: 40px;
+      height: 40px;
+      align-content: center;
+      text-align: center;
+      border: 0px solid ;
+      border-radius: 30px;
+      padding: 7px;
+      margin-top: -1px;
+      background-color: transparent ;
+    }
+  
+    .alinhamento {
+      margin-left: 2px;
+      margin-right: -20px;
+    }
+  
+      
+    .linha2 hr{
+      height: 2px; 
+      background-color: #cecbcbb8; 
+      width: 700px;
+      float: left;
+      margin-top: -5px;
+    }
+  
+  
+  
+  
+  
+  
+    nav ul .submenu {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: #606060;
+      padding: 0.5rem 0;
+      border-radius: 5px;
+  }
+  nav ul li {
+      position: relative;
+      margin: 0 1rem;
+  }
+  
+  nav ul li a {
+      color: rgb(0, 0, 0);
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      display: block;
+  }
+  
+  
+  nav ul .submenu {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      padding: 0.5rem 0;
+      border-radius: 5px;
+  }
+  
+  nav ul .submenu li {
+      margin: 0;
+  }
+  
+  nav ul .submenu li a {
+      padding: 0.5rem 1rem;
+      white-space: nowrap;
+  }
+  
+  
+  nav ul li:hover .submenu {
+      display: block;
+  }
+  
+  nav a {
+    transition: transform 0.1s ease;
+}
+
+nav a:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+  
+  .quadrado{
+    height: 310px;
+    width: 700px;
+    background-color: rgba(245, 242, 242, 0.584);
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    
+    
+  }
+  
+  .img_cartao {
+    margin: -10px;
+    margin-right: 10px;
+}
+  .quadradinho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 270px;
+    width: 200px;
+    border-radius: 12px;
+    background-image: linear-gradient(-45deg, #bca5735f 55%, rgba(128, 128, 128, 0.126) 45%);
+  
+  }
+  
+  .quadradinho img {
+    max-height: 250px;
+    max-width: 210px;
+  }
+  .quadrado1{
+    height: 310px;
+    width: 700px;
+    background-color: rgba(245, 242, 242, 0.584);
+    margin-top: 20px;
+  }
+
+  .quadrado_lateral {
+    border: 2px solid #ccc;
+    padding: 20px;
+    width: 400px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 820px;
+    margin-top: -960px;
+}
+
+  .quadrado_lateral h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.quadrado_lateral p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.quadrado_lateral input[type="text"]{
+    width: 350px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.quadrado_lateral a {
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+
+
+.quadrado_lateral h2 {
+    color: #333;
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.cartao {
+  width: 350px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  text-align: center;
+  cursor: pointer;
+}
+
+.linha3 {
+  background-color: #d6d4b8;
+  height: 5px;
+}
+
+.valor h2 {
+  color: #39C771;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"]:checked + .cartao {
+  border-color: #39C771;
+  box-shadow: 0 0 10px rgba(57, 199, 113, 0.5);
+}
+
+.cartao img {
+  padding: 4px;
+}
+
+.myButton {
+  background-color: #44c767;
+  border-radius: 28px;
+  border: 1px solid #18ab29;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 18px;
+  padding: 12px 52px;
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+.myButton:hover {
+  background-color: #5cbf2a;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+/* Responsividade para telas de notebooks e menores */
+@media screen and (max-width: 1366px) {
+  body {
+      padding: 0;
+      margin: 0;
+  }
+
+  .retangulo {
+      width: 95%;
+      padding: 3%;
+  }
+
+  .quadrado, .quadrado_lateral {
+      width: 100%;
+      margin: 10px auto;
+      box-sizing: border-box;
+  }
+
+  nav ul {
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+
+  nav ul li {
+      margin: 10px;
+  }
+
+  .quadradinho {
+      height: 200px;
+      width: 150px;
+  }
+
+  .quadradinho img {
+      max-height: 150px;
+      max-width: 150px;
+  }
+
+  .search-container .search-input {
+      width: 300px;
+  }
+
+  .img_cartao {
+      margin: 0 auto;
+  }
+
+  .cartao {
+      flex-direction: column;
+      justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .quadradinho {
+      width: 120px;
+      height: 180px;
+  }
+
+  .quadrado_lateral {
+      margin-top: 0;
+  }
+
+  .search-input {
+      width: 250px;
+  }
+
+  .quadradinho img {
+      max-width: 120px;
+      max-height: 180px;
+  }
+
+  .imgFundo img {
+      width: 100%;
+      height: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .quadrado {
+      display: block;
+      padding: 10px;
+  }
+
+  .quadradinho {
+      width: 100px;
+      height: 150px;
+      margin: 0 auto;
+  }
+
+  .quadrado_lateral {
+      margin-left: 0;
+      margin-top: 20px;
+      width: 90%;
+  }
+
+  .retangulo {
+      padding: 5%;
+  }
+
+  nav ul {
+      flex-direction: column;
+  }
+
+  .cartao img {
+      max-width: 100px;
+      height: auto;
+  }
+
+  .myButton {
+      display: block;
+      margin: 20px auto;
+  }
+}

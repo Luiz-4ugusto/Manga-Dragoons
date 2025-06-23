@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MANGA DRAGOONS</title>
+  <link rel="stylesheet" href="css/login.css">
+  <link rel="icon" href="img/MangaDragoons.jpeg">
+</head>
+
+<body class="center">
+  <div class="retangulo">
+    <div class="imgFundo">
+      <img src="img/MANGADRAGOONS1.png" height="300" width="700" alt="Manga Dragoons">
+    </div>
+
+    <hr>
+
+    <header>
+      <div class="meio">
+        <div class="one">
+          <img src="img/MangaDragoons.jpeg" height="300" width="450" alt="Manga Dragoons Logo">
+        </div>
+      </div>
+    </header>
+    
+    <div class="page">
+      <form method="POST" class="formLogin">
+        <div id="alert" style="display: none; color: red; margin-top: 10px;"></div>
+
+        <h1>CADASTRAR</h1>
+        <p>Digite os seus dados para cadastrar sua conta.</p>
+        
+        <label for="email">E-mail</label>
+        <input type="email" id="email" placeholder="Digite seu e-mail">
+        
+        <label for="password">Senha</label>
+        <input type="password" id="password" placeholder="Digite sua senha">
+        
+        <label for="name">Nome</label>
+        <input type="text" id="name" placeholder="Digite seu nome">
+        
+        <label for="cpf">CPF</label>
+        <input type="text" id="cpf" placeholder="Digite seu CPF">
+        
+        <label for="login">LOGIN</label>
+        <input type="text" id="login" placeholder="Digite seu Login">
+        
+        <label for="date">DATA DE NASCIMENTO</label>
+        <input type="date" id="date">
+
+        <button type="submit" class="button">Cadastrar</button>
+      </form>
+      
+      <!-- Div para exibir a mensagem de alerta -->
+    </div>
+  </div>
+
+  <script src="js/cadastro.js"></script>
+</body>
+</html>

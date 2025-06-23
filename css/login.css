@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #000000;
+}
+
+body {
+  background-image: url(biblioteca1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.retangulo {
+  height: auto;
+  width: 80%;
+  background-color: rgb(255, 255, 255);
+  padding: 5%;
+  border-radius: 30px;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+.page {
+  padding-top: 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  background-color: #ffffff;
+}
+
+.formLogin {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 7px;
+  padding: 40px;
+  box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
+  gap: 5px;
+}
+
+.areaLogin img {
+  width: 420px;
+}
+
+.formLogin h1 {
+  padding: 0;
+  margin: 0;
+  font-weight: 500;
+  font-size: 2.3em;
+}
+
+.formLogin p {
+  display: inline-block;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.formLogin input {
+  padding: 15px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  border-radius: 4px;
+  transition: all linear 160ms;
+  outline: none;
+}
+
+.formLogin label {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.formLogin a {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 13px;
+  color: #000000;
+  transition: all linear 160ms;
+}
+
+.button {
+  background-color: #ffffff;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.button:hover {
+  transform: scale(1.05);
+  background-color: #e3d28c;
+}
+
+img * {
+  pointer-events: none;
+}
+.espaco {
+  margin: 100px;
+}
+
+.b {
+  text-align: left;
+}
+.lateral {
+  float: right;
+  margin-left: 20px; /* Adiciona um espaço entre a imagem e o conteúdo à esquerda */
+  margin-top: -20px;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(250, 250, 250);
+}
+header .one img {
+  margin-top: -7%;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 7px solid #bca573;
+  pointer-events: none;
+}
+
+.imgFundo {
+  margin: -80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  padding-bottom: 150px;
+  pointer-events: none;
+}
+
+.meio {
+  text-align: center;
+}
+
+.centralizar {
+  padding: 0px 200px;
+}
+
+hr {
+  border: 0; /* Remove a borda padrão */
+  height: 7px; /* Define a altura da linha */
+  background-color: #bca573; /* Define a cor da linha */
+}
+
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}

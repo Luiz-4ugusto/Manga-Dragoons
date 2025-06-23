@@ -1,0 +1,733 @@
+img * {
+  pointer-events: none;
+}
+.espaco {
+  margin: 100px; 
+}
+body.dark-mode .retangulo {
+  background-color: #282727;
+  color: white;
+}
+
+#genre-filter {
+  background-color: transparent;
+  border: 2px solid #ccc; 
+  padding: 3px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+ 
+}
+
+
+body.dark-mode .card {
+  background-color: #333;
+  color: white;
+}
+body.dark-mode * {
+  color: rgb(143, 139, 139);
+}
+
+.retangulo {
+  background-color: white;
+  height: auto;
+  width: 92%;
+  padding: 5%;
+  border-radius: 20px;
+}
+body {
+  background-image: url(biblioteca1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.b {
+  text-align: left;
+}
+.lateral {
+  float: right;
+  margin-left: 20px;
+  margin-top: -20px;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+header .one img {
+  margin-top: -7%;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 7px solid #bca573;
+  pointer-events: none;
+}
+
+.imgFundo {
+  margin: -80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  padding-bottom: 150px;
+  pointer-events: none;
+}
+
+@media screen and (max-height: 400px) {
+  .one {
+    width: 10%;
+  }
+}
+
+.meio {
+  text-align: center;
+}
+
+.centralizar {
+  padding: 0px 200px;
+}
+
+hr {
+  border: 0;
+  height: 7px;
+  background-color: #bca573;
+}
+
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+  padding: 20px;
+  font-size: 15px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+footer a {
+  margin: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin-top: 2px;
+}
+
+p {
+  padding: 25px;
+}
+
+/*parte dos card (produtos) */
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  padding: 0 14px;
+}
+
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  text-align: center;
+  margin: 15px;
+  height: 375px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #bd9c738b;
+  background-image: linear-gradient(135deg, #f0eaf0 55%, transparent 80% 45%);
+  transition: transform 0.5s ease;
+}
+
+.card:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.07);
+}
+
+.card h2,
+.card h3,
+.card h4 {
+  font-size: 18px;
+  text-align: left;
+}
+.card p {
+  font-size: 17px;
+  margin-top: -10px;
+}
+/*
+  .card img {
+    border: 10px solid #60606018; 
+    max-width: 100%;
+    max-height: 100%;
+  }
+  */
+.card button {
+  margin-top: -10px;
+}
+
+.imgLado {
+  cursor: pointer;
+  pointer-events: none;
+}
+.box {
+  height: 80px;
+  display: flex;
+  cursor: default;
+  padding: 10px 20px;
+  background-color: rgba(255, 255, 255, 0);
+  align-items: center;
+  justify-content: center;
+  margin-right: 100px;
+}
+
+.search-container {
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.search-input {
+  padding-left: 30px; /* Deixa espaço para a imagem */
+  width: 400px;
+  height: 35px;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  background: rgb(237, 231, 231);
+  border-radius: 30px;
+}
+
+.search-button {
+  margin-left: 10px;
+}
+.search-icon {
+  position: absolute;
+  left: 365px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.espaco {
+  margin: 100px;
+}
+
+.contados p {
+  margin-left: 450px;
+}
+.caixa_num {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  width: 150px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.418);
+  border: 1px solid #cecbcb8c;
+  margin-bottom: 8px;
+}
+
+.num {
+  margin-bottom: -10px;
+  width: 35px;
+  height: 35px;
+  background-color: rgba(223, 223, 223, 0.301);
+  border: 0.2px solid #cecbcb69;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-bottom: 2px;
+}
+
+.imgLado {
+  cursor: pointer;
+}
+
+.input-num {
+  width: 40px;
+  height: 40px;
+  align-content: center;
+  text-align: center;
+  border: 0px solid;
+  border-radius: 30px;
+  padding: 7px;
+  margin-top: -1px;
+  background-color: transparent;
+}
+
+.alinhamento {
+  margin-left: 250px;
+  margin-right: 280px;
+}
+
+.linha2 hr {
+  height: 2px;
+  background-color: #cecbcbb8;
+  width: 1250px;
+  float: left;
+  margin-top: -5px;
+}
+
+nav ul .submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #606060;
+  padding: 0.5rem 0;
+  border-radius: 5px;
+}
+nav ul li {
+  position: relative;
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  display: block;
+}
+
+nav ul .submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  padding: 0.5rem 0;
+  border-radius: 5px;
+}
+
+nav ul .submenu li {
+  margin: 0;
+}
+
+nav ul .submenu li a {
+  padding: 0.5rem 1rem;
+  white-space: nowrap;
+}
+
+nav ul li:hover .submenu {
+  display: block;
+}
+
+nav a {
+  transition: transform 0.1s ease;
+}
+
+nav a:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.quadrado {
+  height: 310px;
+  width: 1250px;
+  background-color: rgba(232, 231, 231, 0.902);
+}
+
+.quadradinho {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 270px;
+  width: 230px;
+  background-image: linear-gradient(
+    -45deg,
+    #bca5734f 55%,
+    rgba(128, 128, 128, 0.655) 45%
+  );
+}
+
+.quadradinho img {
+  max-height: 250px;
+  max-width: 210px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu,
+.search-container,
+.cart-container {
+  display: flex;
+  align-items: center;
+}
+
+.menu-item,
+.search-container,
+.cart-container {
+  margin: 0 10px;
+}
+.autocomplete-suggestions {
+  max-height: 150px;
+  overflow-y: auto;
+  background-color: white;
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: block;
+  top: 100%;
+  
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+
+.autocomplete-suggestion {
+  padding: 8px;
+  cursor: pointer;
+  display: block; 
+  border-bottom: 1px solid #ddd;
+}
+
+.autocomplete-suggestion:hover {
+  background-color: #f0f0f0;
+}
+.card{
+  height: auto;
+}
+/* Responsividade para telas de notebooks */
+@media screen and (max-width: 1366px) {
+  body {
+    background-size: cover; /* Ajusta o tamanho do fundo */
+    padding: 0; /* Remove padding extra */
+  }
+
+  .retangulo {
+    width: 95%; /* Aumenta a largura do conteúdo */
+    padding: 2%; /* Reduz padding */
+  }
+
+  .imgFundo img {
+    width: 100%; /* Ajusta imagem ao tamanho do container */
+    height: auto;
+  }
+
+  header .one img {
+    width: 120px;
+    height: 120px;
+    border: 5px solid #bca573;
+  }
+
+  nav ul {
+    flex-wrap: wrap; /* Permite que o menu quebre linhas */
+    justify-content: center;
+    font-size: 13px;
+  }
+
+  .column {
+    width: 30%; /* Reduz a largura das colunas */
+    margin: 10px; /* Adiciona espaçamento */
+  }
+
+  .card {
+    height: auto; /* Permite altura dinâmica */
+    padding: 8px; /* Reduz o padding */
+    margin: 10px;
+  }
+
+  .card img {
+    max-height: 180px; /* Define altura máxima das imagens */
+  }
+
+  .search-input {
+    width: 100%; /* Input ocupa a largura máxima */
+  }
+
+  footer {
+    flex-direction: column; /* Alinha o footer verticalmente */
+    align-items: center;
+  }
+}
+
+
+/* Responsividade para telas de notebooks */
+@media screen and (max-width: 1032px) and (min-width: 768px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+  }
+
+  .retangulo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    width: 95%;
+    padding: 2%;
+    margin: 0 auto;
+  }
+
+  .imgFundo img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column; /* Garante que logo e logotipo fiquem em coluna */
+    align-items: center; /* Centraliza os itens */
+    margin-bottom: 20px;
+  }
+
+  header .one img {
+    width: 120px;
+    height: 120px;
+    border: 5px solid #bca573;
+    margin-bottom: 10px; /* Espaço entre a logo e o logotipo */
+  }
+
+  header .logotipo {
+    font-size: 18px;
+    text-align: center;
+    color: #bca573;
+  }
+
+  nav ul {
+    display: flex;
+    flex-wrap: wrap; /* Permite quebra de linha */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    gap: 10px; /* Espaçamento entre os itens */
+    font-size: 13px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .search-bar {
+    display: flex;
+    flex-direction: column; /* Organiza os elementos da barra de pesquisa em coluna */
+    align-items: center;
+    margin: 20px 0; /* Espaçamento vertical */
+  }
+
+  .search-input {
+    width: 90%; /* Ajusta largura ao centro */
+    max-width: 500px; /* Define um limite de largura */
+    padding: 10px;
+    margin-bottom: 10px; /* Espaço abaixo do input */
+  }
+
+  .filters {
+    display: flex;
+    justify-content: center; /* Centraliza os filtros */
+    gap: 15px; /* Espaçamento entre os filtros */
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row; /* Garante que os itens fiquem lado a lado */
+    justify-content: space-between; /* Distribui os itens ao longo do footer */
+    align-items: center; /* Centraliza verticalmente */
+    gap: 20px;
+    padding: 20px;
+  }
+
+  footer .item {
+    flex: 1; /* Garante espaçamento uniforme entre os itens */
+    text-align: center; /* Alinha cada item individualmente ao centro */
+  }
+
+  .mode-switch, .filtro, .extra-item {
+    margin: 0 auto; /* Centraliza esses elementos */
+  }
+}
+
+@media screen and (max-width: 767px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+  }
+
+  /* Ajustando o retângulo para ocupar 100% da tela */
+  .retangulo {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os cards quebrem linha */
+    justify-content: center; /* Centraliza os cards */
+    width: 100%; /* Faz o retângulo ocupar 100% da tela */
+    padding: 2%;
+    margin: 0 auto;
+  }
+
+  .imgFundo img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column; /* Mantém logo e logotipo em coluna */
+    align-items: center; /* Centraliza os itens */
+    margin-bottom: 20px;
+  }
+
+  header .one img {
+    width: 100px; /* Tamanho reduzido para telas menores */
+    height: 100px;
+    border: 4px solid #bca573;
+    margin-bottom: 10px;
+  }
+
+  header .logotipo {
+    font-size: 16px;
+    text-align: center;
+    color: #bca573;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column; /* Navegação em coluna */
+    align-items: center; /* Centraliza os itens */
+    gap: 8px; /* Espaçamento entre os itens */
+    font-size: 12px;
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+
+  .search-bar {
+    display: flex;
+    flex-direction: row; /* Organiza em linha */
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: space-between; /* Distribui os itens horizontalmente */
+    width: 100%; /* Usa a largura total */
+    margin: 20px 0; /* Espaçamento vertical */
+    gap: 10px; /* Espaçamento entre os itens */
+  }
+
+  .search-input {
+    flex: 1; /* Faz o input ocupar o máximo de espaço possível */
+    padding: 8px;
+  }
+
+  .filters, .mode-switch {
+    flex-shrink: 0; /* Evita que esses elementos diminuam muito de tamanho */
+  }
+
+  /* Ajuste dos cards para telas pequenas */
+  .retangulo .card {
+    width: 250px; /* Definindo a largura dos cards como 250px */
+    margin: 10px; /* Espaçamento entre os cards */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+  }
+
+  .retangulo .card img {
+    width: 100%; /* Imagem ocupa toda a largura do card */
+    height: auto; /* Ajusta a altura proporcionalmente */
+    max-height: 200px; /* Define uma altura máxima */
+    border-radius: 5px;
+    object-fit: cover; /* Garante que a imagem seja ajustada corretamente */
+  }
+
+  .retangulo .card h3 {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+
+  .retangulo .card p {
+    font-size: 14px;
+    color: #666;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column; /* Footer em coluna */
+    align-items: center; /* Centraliza os itens */
+    gap: 10px; /* Espaçamento entre os itens */
+    padding: 15px 0;
+  }
+
+  footer .item {
+    text-align: center; /* Centraliza cada item do footer */
+  }
+
+  .mode-switch, .filtro, .extra-item {
+    margin: 0 auto; /* Centraliza os elementos */
+  }
+
+  /* Ajuste para telas menores que 450px */
+  @media screen and (max-width: 450px) {
+    .retangulo .card {
+      max-width: 200px; /* Cards ocupam 90% da largura da tela */
+      padding: 10px; /* Reduz o padding para melhorar o layout */
+    }
+    .retangulo {
+      width: 100%;
+      height: auto;
+    }
+    .retangulo .card img {
+      width: 100%; /* Aumenta a largura da imagem */
+      max-height: 250px; /* Aumenta a altura máxima das imagens */
+    }
+
+    .retangulo .card h3 {
+      font-size: 18px; /* Aumenta o tamanho do texto */
+      margin: 15px 0; /* Adiciona mais espaço ao redor do título */
+    }
+
+    .retangulo .card p {
+      font-size: 16px; /* Aumenta o tamanho da descrição */
+      color: #333; /* Altera a cor do texto para melhorar a leitura */
+    }
+
+    .search-bar {
+      flex-direction: column; /* Organiza os filtros e barra de pesquisa em coluna */
+      align-items: center; /* Centraliza tudo */
+      gap: 10px; /* Espaçamento entre os itens */
+    }
+
+    .search-input {
+      width: 100%; /* Input ocupa toda a largura disponível */
+    }
+
+    .filters, .mode-switch {
+      width: 100%; /* Filtros ocupam toda a largura */
+      text-align: center; /* Centraliza o texto dentro dos filtros */
+    }
+  }
+}
