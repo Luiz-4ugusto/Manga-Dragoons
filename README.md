@@ -20,6 +20,6 @@ Inicialmente, o foco estava na criação da estrutura visual e responsiva com HT
 | **HTML5**               | Estrutura do conteúdo e páginas da aplicação                    |
 | **CSS3**                | Estilização e layout responsivo                                 |
 | **JavaScript**          | Interações dinâmicas no lado do cliente                         |
-| **VS Code**             | Ambiente de desenvolvimento (IDE)                               |
+| **Visual Studio Code (VS Code)	**             | Ambiente de desenvolvimento (IDE)                               |
 
 
