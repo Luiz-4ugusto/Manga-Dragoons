@@ -30,7 +30,7 @@ form.addEventListener("submit", function(event) {
         alertDiv.style.display = "block"; 
     } else {
         alertDiv.style.display = "none"; 
-        window.location.href = "index.html"; 
+        window.location.href = "index.HTML"; 
     }
 });
 
