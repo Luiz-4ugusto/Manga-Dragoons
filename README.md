@@ -8,7 +8,7 @@ Inicialmente, o foco estava na criação da estrutura visual e responsiva com HT
 
 - Página inicial com destaque de produtos
 - Cadastro e login de usuários
-- Carrinho de compras com opção de adicionar/remover itens
+- Carrinho de compras
 - Seção "Sobre Nós" e "Contatos"
 - Organização dos produtos em categorias
 
